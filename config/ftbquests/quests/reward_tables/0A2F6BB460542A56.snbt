@@ -1,0 +1,29 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "create_deepfried:item/raw_corn_dog"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "0A2F6BB460542A56"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "4A6E4B7494002D19"
+			item: {
+				count: 1
+				id: "create_deepfried:donut"
+			}
+		}
+		{
+			count: 4
+			id: "560605CA6B06ABC7"
+			item: {
+				count: 1
+				id: "create_deepfried:corn_dog"
+			}
+		}
+	]
+}

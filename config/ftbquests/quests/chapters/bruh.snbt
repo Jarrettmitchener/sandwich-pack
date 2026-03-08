@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bruh"
+	group: ""
+	id: "47F7B6B0513DD1C0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "1EF99BB6251D0B8B"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "7E83B884F8CD00EC"
+			table_id: 733923686739094102L
+			type: "loot"
+		}]
+		tasks: [{
+			id: "139BC9E67B2617C8"
+			item: { count: 1, id: "minecraft:crafting_table" }
+			type: "item"
+		}]
+		x: -1.5d
+		y: -1.5d
+	}]
+}
