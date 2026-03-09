@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips__tricks"
+	group: ""
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "minecraft:wandering_trader"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6D2CEC8C4D849BFC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "525648CB6B086EDD"
+			rewards: [{
+				id: "2383BF7DAF01367B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "511DCD250F0FB724"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5EE60E88C2A30037"
+			rewards: [{
+				count: 3
+				id: "22E0218FD61CD791"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FAA9C5D9CD513EC"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "481C6A63C4452FD4"
+			rewards: [{
+				id: "0822A26385509C8F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A1EAD419056FD6A"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "4CAC7D83F9DC4AFD"
+			rewards: [{
+				id: "712B45D36E6CEFAC"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:smelting_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A94A8B60EF3047C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:all_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "4C50AF79A3A2AA4A"
+			tasks: [{
+				id: "4879AB9E5693F8D9"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "246D66E850D07361"
+			rewards: [{
+				id: "57C5EF4BAF2180ED"
+				item: {
+					count: 1
+					id: "wands:iron_wand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12D1EE47E473CB9D"
+				item: { count: 1, id: "wands:stone_wand" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+}

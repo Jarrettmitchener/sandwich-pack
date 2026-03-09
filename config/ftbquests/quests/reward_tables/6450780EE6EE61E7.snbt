@@ -1,0 +1,71 @@
+{
+	id: "6450780EE6EE61E7"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 6
+			id: "66EC7D4DC4436B17"
+			item: {
+				count: 1
+				id: "createfood:bacon_pizza_slice"
+			}
+		}
+		{
+			count: 6
+			id: "0B60D4C7464BE002"
+			item: {
+				count: 1
+				id: "createfood:cheese_pizza_slice"
+			}
+		}
+		{
+			count: 6
+			id: "32E12801CE5D3F86"
+			item: {
+				count: 1
+				id: "createfood:fish_bacon_pizza_slice"
+			}
+		}
+		{
+			count: 6
+			id: "2EF9E64D51258C17"
+			item: {
+				count: 1
+				id: "createfood:fish_onion_pizza_slice"
+			}
+		}
+		{
+			count: 6
+			id: "38E878D7B00F86DA"
+			item: {
+				count: 1
+				id: "createfood:fish_pizza_slice"
+			}
+		}
+		{
+			count: 6
+			id: "5BF8A3BA8BEFDAFD"
+			item: {
+				count: 1
+				id: "createfood:mushroom_bacon_pizza_slice"
+			}
+		}
+		{
+			count: 6
+			id: "601E9E9CAB839F42"
+			item: {
+				count: 1
+				id: "createfood:mushroom_fish_pizza_slice"
+			}
+		}
+		{
+			count: 6
+			id: "6035BBFB9DE83221"
+			item: {
+				count: 1
+				id: "createfood:onion_bacon_pizza_slice"
+			}
+		}
+	]
+}

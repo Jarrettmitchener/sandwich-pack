@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:andesite',
             B: 'minecraft:diorite',  //arg 3: the mapping object
-            C: 'minecraft:apple'
+            C: 'minecraft:granite'
         }
     );
 
@@ -24,6 +24,20 @@ ServerEvents.recipes(event => {
         'someassemblyrequired:bread_slice'         // Arg 3: the item to replace it with
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
     )
+
+
+    event.shaped(
+        Item.of('kubejs:bread_iron', 3),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'someassemblyrequired:bread_slice',
+            B: 'minecraft:iron_ingot'
+        }
+    );
     // Remove all recipes where output has the Wool tag:
     event.remove({ output: '#forge:removed_items' })
 
@@ -37,10 +51,4 @@ ServerEvents.recipes(event => {
     //     ], 
     // )
 
-})
-LootJS.lootTables(event => {
-    //let ids = event.getLootTableIds("chest")
-    //console.log(ids)
-    //console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-    event.getLootTable('minecraft:chests/desert_pyramid').firstPool().addEntry(LootEntry.of("minecraft:apple").withWeight(2000))
 })

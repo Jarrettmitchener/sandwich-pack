@@ -1,5 +1,83 @@
 {
-	chapter.47F7B6B0513DD1C0.title: "Bruh"
+	chapter.47F7B6B0513DD1C0.title: "Starting out"
+	chapter.6BBAECDA1CD37F3B.title: "Tier 1: New Hire"
+	chapter.6D2CEC8C4D849BFC.title: "Tips and Tricks"
 	chapter_group.13A91BC74E2EFDB2.title: "chapter group"
-	reward_table.0A2F6BB460542A56.title: "Basic"
+	quest.0D3F3696CA9CF487.quest_desc: [
+		"Waystones are a great way to teleport around the world. They can be found naturally in the world or be crafted."
+		""
+		"Note: you do have access to one /home,"
+	]
+	quest.0D3F3696CA9CF487.title: "Teleporting Around"
+	quest.1EF99BB6251D0B8B.quest_desc: ["Go ahead and get some basic craft stuff. You'll need some basic survival stuff to get started"]
+	quest.1EF99BB6251D0B8B.title: "Basics"
+	quest.246D66E850D07361.quest_desc: [
+		"For all your building needs."
+		""
+		"The wiki for these is going to be alot better than me describing it here..."
+	]
+	quest.246D66E850D07361.title: "Building Wands"
+	quest.2C7D9402BAE5F526.quest_desc: [
+		"What, did you think we were gonna put two bread together to make a sandwhich?"
+		""
+		"We need a knife and cutting board to effectively take our bread and make slices. We also have a lot more we'll be cutting"
+	]
+	quest.2C7D9402BAE5F526.title: "We need to slice"
+	quest.2D44CC72B6AC1A64.quest_desc: [
+		"Looks like you found an ore tortoise! You can use a pickaxe to harvest the ore on their back. They won't like it though if they don't have any ore..."
+		""
+		"Apparently their favorite food is glow berries, maybe try giving them some..."
+		""
+		"Leads aren't strong enough to move these big boys, but a minecart could work"
+		""
+		"ps, the iron pickaxe has fortune II..."
+	]
+	quest.2D44CC72B6AC1A64.title: "Ore Turtles?"
+	quest.481C6A63C4452FD4.quest_desc: ["Loot chests look a little different? We've got lootr installed! Now finding everyone can explore dungeons and structures at their own pace"]
+	quest.481C6A63C4452FD4.title: "Everyone Gets Loot!"
+	quest.4C50AF79A3A2AA4A.quest_desc: [
+		"Notice the list of items to the right of your inventory?"
+		"Thats JEI (Just enough items). you can search for items there, and it even takes expressions!"
+		"For example, looking up @quark shows all items from the quark mod!"
+		""
+		"You can also see how to craft items using &lr&r, and then see what recipes they're used in by pressing &lu&r"
+	]
+	quest.4CAC7D83F9DC4AFD.quest_desc: ["Like backpacks, we have sophisticated storage! This lets you create larger upgraded chests and barrels. You can also increase the stack limit from 64!"]
+	quest.4CAC7D83F9DC4AFD.title: "Bigger, Better Storage"
+	quest.525648CB6B086EDD.quest_desc: ["We have veinminer installed! To use, hold ~ and the area that will be mined will be highlighted"]
+	quest.525648CB6B086EDD.title: "Veinminer"
+	quest.5BE1DDC23CC3C317.quest_desc: [
+		"Welcome to *sandwich pack name placeholder*! "
+		"This pack focuses on automating the creation of a variety of sandwiches using the Create mod and extension mods."
+		"Currently working on an \"end\" goal, but for now just have fun and automate stuff!"
+	]
+	quest.5BE1DDC23CC3C317.quest_subtitle: "Time to Cook"
+	quest.5BE1DDC23CC3C317.title: "Welcome!"
+	quest.5D24DF9AFD80952D.quest_desc: ["You may come across Andesite while you're out mining. You'll need this for create and to progress in the pack. Remember we have vein miner!"]
+	quest.5D24DF9AFD80952D.quest_subtitle: "It's useful now?"
+	quest.5D24DF9AFD80952D.title: "Andesite"
+	quest.5EE60E88C2A30037.quest_desc: ["Running out of inventory space? Make a backpack! they have pretty modular upgrades, and there are iron, gold, diamond, and netherite versions. These upgrades vary from increasing stack size, portable crafting table, and more!"]
+	quest.5EE60E88C2A30037.title: "Running out of space?"
+	quest.5F9A2F1A2EBDFE2A.quest_desc: ["We don't make sandwiches in a crafting grid. We make them with heart and grit. You'll need a specific station to make great sandwiches"]
+	quest.6EEF36BCFCDB56C2.quest_desc: [
+		"It's time. You can build custom sandwiches by placing a bread slice and other ingredient on top of the sandwich station. Break the sandwich to get it"
+		""
+		"Your sandwich has to be exact in its ingredient order, so make sure you build it like this:"
+		"Bread Slice"
+		"Tomato Slice"
+		"Cooked Porkchop"
+		"Cabbage Leaf"
+		"Bread Slice"
+	]
+	quest.6EEF36BCFCDB56C2.title: "Your first of many"
+	quest.766953DE694C444C.quest_desc: ["You're gonna need a lot of crops, but for now just get some wheat. In exchange for wheat, I'll give you some other starter seeds you'll need"]
+	reward_table.13B43134D3C8729B.title: "Turtle"
+	reward_table.18377110625D458E.title: "Vanilla Food"
+	reward_table.6450780EE6EE61E7.title: "Pizza"
+	task.0A94A8B60EF3047C.title: "Any #sophisticatedstorage:all_storage"
+	task.3FCBA6CFD062FDA2.title: "Any #waystones:waystones"
+	task.41E0F95DAC1D2B50.title: "Any #minecraft:logs"
+	task.4879AB9E5693F8D9.title: "Using JEI"
+	task.511DCD250F0FB724.title: "veinminer"
+	task.512B149E731F2212.title: "Read"
 }

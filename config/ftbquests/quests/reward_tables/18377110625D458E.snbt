@@ -1,0 +1,39 @@
+{
+	id: "18377110625D458E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "07D574F0AF5FEEE6"
+			item: {
+				count: 1
+				id: "minecraft:cooked_porkchop"
+			}
+		}
+		{
+			count: 4
+			id: "56A32BEE751B1389"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 4
+			id: "55F14BD59EDE4B15"
+			item: {
+				count: 1
+				id: "minecraft:cooked_mutton"
+			}
+		}
+		{
+			count: 4
+			id: "70F022C4FDB48911"
+			item: {
+				count: 1
+				id: "minecraft:cooked_chicken"
+			}
+		}
+	]
+}

@@ -6,20 +6,340 @@
 	id: "47F7B6B0513DD1C0"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "1EF99BB6251D0B8B"
-		rewards: [{
-			exclude_from_claim_all: true
-			id: "7E83B884F8CD00EC"
-			table_id: 733923686739094102L
-			type: "loot"
-		}]
-		tasks: [{
-			id: "139BC9E67B2617C8"
-			item: { count: 1, id: "minecraft:crafting_table" }
-			type: "item"
-		}]
-		x: -1.5d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			dependencies: ["5BE1DDC23CC3C317"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "1EF99BB6251D0B8B"
+			rewards: [
+				{
+					id: "4A632DD0A2ED618A"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:unbreaking": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:stone_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E7D4CD99A6B06E0"
+					table_id: 1744987695813051790L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "139BC9E67B2617C8"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 32L
+					id: "41E0F95DAC1D2B50"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "24FAB5A6F5347F60"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C75B0A8AED12960"
+					item: { count: 1, id: "minecraft:chest" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "5BE1DDC23CC3C317"
+			rewards: [{
+				count: 6
+				id: "43087B7F26295374"
+				item: {
+					count: 1
+					id: "createfood:bacon_pizza_slice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "512B149E731F2212"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:raw_iron"
+			}
+			id: "2D44CC72B6AC1A64"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DD548E2ACB80560"
+				table_id: 1419813885489738395L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "290004C6DC39940C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:toretoise"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EF99BB6251D0B8B"]
+			id: "5D24DF9AFD80952D"
+			rewards: [{
+				count: 16
+				id: "51905B461CEF7626"
+				item: {
+					count: 1
+					id: "minecraft:raw_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4B0D40A00232447D"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1EF99BB6251D0B8B"]
+			id: "766953DE694C444C"
+			rewards: [
+				{
+					count: 16
+					id: "21264BF742AF5BDD"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "26E0462A2DFC74A5"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6BC8DD310527892B"
+					item: {
+						count: 1
+						id: "farmersdelight:onion"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C4A6551652915F7"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "7399ADEAAB24AF59"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "03E614513751B721"
+					item: { count: 1, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D24DF9AFD80952D"]
+			id: "5F9A2F1A2EBDFE2A"
+			rewards: [{
+				id: "5AB14D18410D2A09"
+				item: {
+					count: 1
+					id: "farmersdelight:apple_pie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CCD713D2852AC24"
+				item: { count: 1, id: "someassemblyrequired:sandwiching_station" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["766953DE694C444C"]
+			id: "2C7D9402BAE5F526"
+			rewards: [
+				{
+					count: 8
+					id: "1FA9AF02F57DB89B"
+					item: {
+						count: 1
+						id: "minecraft:potato"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5C39A5CDD0A1FF08"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34C857037E632CD9"
+					item: { count: 1, id: "farmersdelight:iron_knife" }
+					type: "item"
+				}
+				{
+					id: "70DE14023AEA6C02"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F9A2F1A2EBDFE2A"
+				"2C7D9402BAE5F526"
+			]
+			icon: {
+				components: {
+					"someassemblyrequired:sandwich_contents": [
+						{
+							count: 1
+							id: "someassemblyrequired:bread_slice"
+						}
+						{
+							count: 1
+							id: "someassemblyrequired:tomato_slices"
+						}
+						{
+							count: 1
+							id: "minecraft:cooked_porkchop"
+						}
+						{
+							count: 1
+							id: "farmersdelight:cabbage_leaf"
+						}
+						{
+							count: 1
+							id: "someassemblyrequired:bread_slice"
+						}
+					]
+				}
+				id: "someassemblyrequired:sandwich"
+			}
+			id: "6EEF36BCFCDB56C2"
+			rewards: [
+				{
+					count: 4
+					id: "395F31FB02222B4A"
+					item: {
+						count: 1
+						id: "farmersdelight:cooked_bacon"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4B42136CE29B36E1"
+					item: {
+						count: 1
+						id: "someassemblyrequired:bread_slice"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "7096E6EC47EC766E"
+					item: { count: 1, id: "someassemblyrequired:bread_slice" }
+					type: "item"
+				}
+				{
+					id: "1AA04E1B132F4BFE"
+					item: { count: 1, id: "someassemblyrequired:tomato_slices" }
+					type: "item"
+				}
+				{
+					id: "78376B923AF3FEDF"
+					item: { count: 1, id: "minecraft:cooked_porkchop" }
+					type: "item"
+				}
+				{
+					id: "40C7AC6C16C8CB7A"
+					item: { count: 1, id: "farmersdelight:cabbage_leaf" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0B3FA87B53E1739E"
+					item: { components: { "someassemblyrequired:sandwich_contents": [ { count: 1, id: "someassemblyrequired:bread_slice" }, { count: 1, id: "someassemblyrequired:tomato_slices" }, { count: 1, id: "minecraft:cooked_porkchop" }, { count: 1, id: "farmersdelight:cabbage_leaf" }, { count: 1, id: "someassemblyrequired:bread_slice" } ] }, count: 1, id: "someassemblyrequired:sandwich" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EF99BB6251D0B8B"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "0D3F3696CA9CF487"
+			tasks: [{
+				id: "3FCBA6CFD062FDA2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
 }

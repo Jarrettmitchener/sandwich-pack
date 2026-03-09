@@ -1,0 +1,16 @@
+{
+	id: "13B43134D3C8729B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "1E85353D14330175", item: { components: { "minecraft:enchantments": { levels: { "minecraft:fortune": 2 } } }, count: 1, id: "minecraft:iron_pickaxe" } }
+		{
+			count: 16
+			id: "268D21DDC2B6EEBB"
+			item: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+		}
+	]
+}
