@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:andesite',
             B: 'minecraft:diorite',  //arg 3: the mapping object
-            C: 'kubejs:example_item'
+            C: 'minecraft:granite'
         }
     );
 
@@ -24,9 +24,22 @@ ServerEvents.recipes(event => {
         'someassemblyrequired:bread_slice'         // Arg 3: the item to replace it with
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
     )
+
+
+    event.shaped(
+        Item.of('kubejs:bread_iron', 3),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'someassemblyrequired:bread_slice',
+            B: 'minecraft:iron_ingot'
+        }
+    );
     // Remove all recipes where output has the Wool tag:
     event.remove({ output: '#forge:removed_items' })
-    let item = "minecraft:mushroom_stew"
 
     //cutting example
     // event.recipes.farmersdelight.cutting(
